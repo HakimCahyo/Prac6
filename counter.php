@@ -1,6 +1,6 @@
 <?php
 	//DB values and credentials, import from db_config.php
-	require_once('db_config.php');
+	require_once('DBConfig.php');
 	//init variables
 	$count = 0;
 	$url = $_SERVER['REQUEST_URI'];
@@ -18,7 +18,7 @@
 		$count = $row[1];
 		$count = intval($count) + 1;
 		//update counter value
-		$query = "UPDATE `counter` SET `counts`=$count WHERE `counter`='1'";
+		$query = "UPDATE `counter` SET `counts`=$count WHERE `id`='1'";
 		$result = mysqli_query($db, $query);
 	} else {
 		die ("Something wrong with the MySQL database");
@@ -32,7 +32,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/lightbox.css">
 		<link rel="stylesheet" href="css/weew.css">
-		
+
 		<title>Visitor Counter</title>
 	</head>
 	<body>
