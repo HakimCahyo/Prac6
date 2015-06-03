@@ -67,6 +67,14 @@
 
 		<!-- Main -->
 		<div class="container">
+		<!-- hitwebcounter Code START -->
+<a href="http://www.hitwebcounter.com/links.php" target="_blank">
+<img src="http://hitwebcounter.com/counter/counter.php?page=6083103&style=0001&nbdigits=5&type=page&initCount=0" title="http://www.hitwebcounter.com/" Alt="http://www.hitwebcounter.com/"   border="0" >
+</a><br/>
+<!-- hitwebcounter.com --><a href="http://www.hitwebcounter.com/" title="Counter For Wordpress"
+target="_blank" style="font-family: Geneva, Arial, Helvetica;
+font-size: 8px; color: #9F9F97; text-decoration: underline ;"><code>Counter For Wordpress</code>
+</a>
 			<small><p id="userLocation" class="text-right" style="margin:0"></p></small>
 			<!-- Map -->
 			<div class="col-lg-8">
